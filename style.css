@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    margin: 50px auto;
+    color: #4d4d4d;
+}
+
+label{
+    color: #262626;
+}
+
+select{
+    height: 25px;
+    border-radius: 5px;
+    color: #4d4d4d;
+}
+
+#mode{
+    margin-bottom: 10px;
+}
+
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 50px auto;  
+}
+ 
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #666666;   
+    cursor: pointer;
+    border: solid 2px #888888;
+    box-sizing: border-box;
+    font-size: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
